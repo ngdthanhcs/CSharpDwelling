@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkipListAndHashSet", "SkipL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitManipulation", "BitManipulation\BitManipulation.csproj", "{6F6A6DB6-81E8-4C8E-B1E6-4BA2623033AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSet", "HashSet\HashSet.csproj", "{381DC903-9A44-4DAD-A31C-2958FBDA65CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuple", "Tuple\Tuple.csproj", "{F96716E2-4FAE-4A8F-92DE-EAF3681BB9A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{6F6A6DB6-81E8-4C8E-B1E6-4BA2623033AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F6A6DB6-81E8-4C8E-B1E6-4BA2623033AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F6A6DB6-81E8-4C8E-B1E6-4BA2623033AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{381DC903-9A44-4DAD-A31C-2958FBDA65CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381DC903-9A44-4DAD-A31C-2958FBDA65CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381DC903-9A44-4DAD-A31C-2958FBDA65CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381DC903-9A44-4DAD-A31C-2958FBDA65CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96716E2-4FAE-4A8F-92DE-EAF3681BB9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96716E2-4FAE-4A8F-92DE-EAF3681BB9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96716E2-4FAE-4A8F-92DE-EAF3681BB9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96716E2-4FAE-4A8F-92DE-EAF3681BB9A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
