@@ -6,6 +6,8 @@ public class TupleTest
         var ans = 0;
         var count = new int[26];
         var usedFreq = new HashSet<int>();
+        
+        Console.WriteLine("a = " + ('b' - 'a')); 
 
         foreach (var c in s)
         {
@@ -21,6 +23,11 @@ public class TupleTest
             }
             
             usedFreq.Add(freq);
+        }
+
+        for (int i = 0; i < count.Length; i++)
+        {
+            Console.WriteLine((char)i + " fred is " + count[i]);    
         }
 
         return ans;

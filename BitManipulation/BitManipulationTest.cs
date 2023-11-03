@@ -12,9 +12,9 @@ public static class BitManipulationTest
         arr[3] = 4;
         arr[4] = 5;
 
-        for (int i = 0; i < arr.Length; i >>= 1)
+        for (int i = 0; i < 10; i++)
         {
-            Console.WriteLine(arr[i]);
+            Console.WriteLine(~i);
         }
     }
 }
