@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Text;
 using Workout;
 
 /*var numberArr = new int[5][]
@@ -52,13 +53,40 @@ var graph = new DesignGraphWithShortestPathCalculator(6, edges);*/
     new[] { 6 },
     new[] { 15, 19 },
     new[] { 9, 12, 13 },
-    new[] { 12, 6, 19 }
+    //new[] { 12, 6, 19 }
 };
-var start = 7;
-var target = 19;
+var start = 15;
+var target = 12;
 Console.WriteLine(BusRoutes.NumBusesToDestination(routes, start, target));*/
 
 //2785 sort vowel in a string AGAIN
+/*
 var s = "lEetcOde";
 
 Console.WriteLine(SortVowelsInAString.SortVowels(s));
+*/
+// 1930 -UniqueLength3PalindromeSubsequence 
+/*Console.WriteLine(UniqueLength3PalindromeSubsequence.CountPalindromicSubsequence("aabca"));
+Console.WriteLine(UniqueLength3PalindromeSubsequence.CountPalindromicSubsequence("bbcbaba"));
+Console.WriteLine(UniqueLength3PalindromeSubsequence.CountPalindromicSubsequence("adc"));*/
+
+// 1846 Max element after decreasing and rearranging 
+/*var arr = new int[5] {2, 2, 1, 2, 1};
+var arr1 = new int[3] {100, 1, 1000};
+var arr2 = new int[5] {1, 2, 3, 4, 5};
+
+Console.WriteLine(MaxElementAfterDecreasingAndRearranging.MaxElementAfterModifyArr(arr));
+Console.WriteLine(MaxElementAfterDecreasingAndRearranging.MaxElementAfterModifyArr(arr1));
+Console.WriteLine(MaxElementAfterDecreasingAndRearranging.MaxElementAfterModifyArr(arr2));*/
+
+//1940 Find unique binary string
+var nums = new string[] { "01", 
+                          "10" };
+var nums1 = new string[] { "00", 
+                           "01" };
+//Console.WriteLine(FindUniqueBinaryString.FindUnique(nums));
+Console.WriteLine(FindUniqueBinaryString.FindUnique(nums1));
+
+/*var sb = new StringBuilder("10");
+var s = "00";
+Console.WriteLine(FindUniqueBinaryString.XOR(sb, s));*/

@@ -3,7 +3,7 @@
 public static class BusRoutes {
     public static int NumBusesToDestination(int[][] routes, int source, int target)
     {
-        if (source == target)
+        /*if (source == target)
             return 0;
         
         var dict = new Dictionary<int, List<int>>();
@@ -41,6 +41,35 @@ public static class BusRoutes {
             }
         }
 
-        return -1;
+        return -1;*/
+        
+        // -bellman ford
+        if (source == target) {
+            return 0;
+        }
+        var maxStop = routes.SelectMany(route => route).Max();
+        if (maxStop < target) {
+            return -1;
+        }
+        var n = routes.Length;
+        var minBusesToReach = new int[maxStop + 1];
+        Array.Fill(minBusesToReach, n + 1);
+        minBusesToReach[source] = 0;
+        var flag = true;
+        while (flag) {
+            flag = false;
+            foreach (var route in routes) {
+                var min = route.Select(stop => minBusesToReach[stop]).Min();
+                min++;
+                foreach (var stop in route)
+                {
+                    if (minBusesToReach[stop] <= min) continue;
+                    minBusesToReach[stop] = min;
+                    flag = true;
+                }
+            }
+            
+        }
+        return (minBusesToReach[target] < n + 1 ? minBusesToReach[target] : -1);
     }
 }
