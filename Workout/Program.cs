@@ -92,7 +92,7 @@ var s = "00";
 Console.WriteLine(FindUniqueBinaryString.XOR(sb, s));*/
 
 // 1838 frequency of the most frequent element 
-var nums = new[] {1, 2, 4};
+/*var nums = new[] {1, 2, 4};
 var nums1 = new[] {1, 4, 8, 13};
 var nums4 = new[] {1, 6, 9, 10};
 var nums2 = new[] {3, 9, 6};
@@ -101,4 +101,13 @@ var nums3 = new[] {9930,9923,9983,9997,9934,9952,9945,9914,9985,9982,9970,9932,9
 //Console.WriteLine(FrequencyOfTheMostFrequentElement.MaxFrequency(nums1, 5));
 //Console.WriteLine(FrequencyOfTheMostFrequentElement.MaxFrequency(nums2, 2));
 //Console.WriteLine(FrequencyOfTheMostFrequentElement.MaxFrequency(nums3, 3056));
-Console.WriteLine(FrequencyOfTheMostFrequentElement.MaxFrequency(nums4, 5));
+Console.WriteLine(FrequencyOfTheMostFrequentElement.MaxFrequency(nums4, 5));*/
+
+// 1887 ReductionsOperationToMakeTheArrayElementsEqual
+var nums = new[] {5, 1, 3};
+var nums1 = new[] {1, 1, 1};
+var nums2 = new[] {1, 1, 2, 2, 3};
+
+Console.WriteLine(ReductionsOperationToMakeTheArrayElementsEqual.CalculateReductionsOperation(nums));
+Console.WriteLine(ReductionsOperationToMakeTheArrayElementsEqual.CalculateReductionsOperation(nums1));
+Console.WriteLine(ReductionsOperationToMakeTheArrayElementsEqual.CalculateReductionsOperation(nums2));
