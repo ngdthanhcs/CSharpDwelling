@@ -3,7 +3,8 @@
 public static class ReductionsOperationToMakeTheArrayElementsEqual {
     public static int CalculateReductionsOperation(int[] nums)
     {
-        Array.Sort(nums);
+        // 1--------- naive 
+        /*Array.Sort(nums);
         var length = nums.Length;
         var minIndex = 0;
 
@@ -32,6 +33,21 @@ public static class ReductionsOperationToMakeTheArrayElementsEqual {
             ans += currCount;
         }
 
+        return ans;*/
+        
+        // 2-------- count frequencies
+        int n = nums.Length;
+        int[] freq = new int[50001];
+        for (int i = 0; i < n; i++) {
+            freq[nums[i]]++;
+        }
+        int ans = 0, operations = 0;
+        for (int i = 50000; i >= 1; i--)
+        {
+            if (freq[i] <= 0) continue;
+            operations += freq[i];
+            ans += operations - freq[i];
+        }
         return ans;
     }
 }

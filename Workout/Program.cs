@@ -104,10 +104,19 @@ var nums3 = new[] {9930,9923,9983,9997,9934,9952,9945,9914,9985,9982,9970,9932,9
 Console.WriteLine(FrequencyOfTheMostFrequentElement.MaxFrequency(nums4, 5));*/
 
 // 1887 ReductionsOperationToMakeTheArrayElementsEqual
-var nums = new[] {5, 1, 3};
+/*var nums = new[] {5, 1, 3};
 var nums1 = new[] {1, 1, 1};
 var nums2 = new[] {1, 1, 2, 2, 3};
 
 Console.WriteLine(ReductionsOperationToMakeTheArrayElementsEqual.CalculateReductionsOperation(nums));
 Console.WriteLine(ReductionsOperationToMakeTheArrayElementsEqual.CalculateReductionsOperation(nums1));
-Console.WriteLine(ReductionsOperationToMakeTheArrayElementsEqual.CalculateReductionsOperation(nums2));
+Console.WriteLine(ReductionsOperationToMakeTheArrayElementsEqual.CalculateReductionsOperation(nums2));*/
+
+var garbage1 = new[] {"G", "P", "GP", "GG"};
+var travel1 = new[] {2, 4, 3};
+
+var garbage2 = new[] {"MMM", "PGM", "GP"};
+var travel2 = new[] {3, 10};
+
+Console.WriteLine(MinimumAmountOfTimeToCollectGarbage.garbageCollection(garbage1, travel1));
+Console.WriteLine(MinimumAmountOfTimeToCollectGarbage.garbageCollection(garbage2, travel2));
