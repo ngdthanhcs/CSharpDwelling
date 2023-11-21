@@ -112,11 +112,15 @@ Console.WriteLine(ReductionsOperationToMakeTheArrayElementsEqual.CalculateReduct
 Console.WriteLine(ReductionsOperationToMakeTheArrayElementsEqual.CalculateReductionsOperation(nums1));
 Console.WriteLine(ReductionsOperationToMakeTheArrayElementsEqual.CalculateReductionsOperation(nums2));*/
 
-var garbage1 = new[] {"G", "P", "GP", "GG"};
+/*var garbage1 = new[] {"G", "P", "GP", "GG"};
 var travel1 = new[] {2, 4, 3};
 
 var garbage2 = new[] {"MMM", "PGM", "GP"};
 var travel2 = new[] {3, 10};
 
 Console.WriteLine(MinimumAmountOfTimeToCollectGarbage.garbageCollection(garbage1, travel1));
-Console.WriteLine(MinimumAmountOfTimeToCollectGarbage.garbageCollection(garbage2, travel2));
+Console.WriteLine(MinimumAmountOfTimeToCollectGarbage.garbageCollection(garbage2, travel2));*/
+
+// 1814 nice array 
+var nums = new[] {42, 11, 1, 97};
+Console.WriteLine(CountNicePair.CountPair(nums));
