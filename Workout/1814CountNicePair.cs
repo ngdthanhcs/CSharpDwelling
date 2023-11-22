@@ -5,39 +5,32 @@ namespace Workout;
 public static class CountNicePair {
     public static int CountPair(int[] nums)
     {
-        Helper.WriteArray(nums);
-        var length = nums.Length;
-
-        var revNums = new int[length];
-
-        for (int i = 0; i < length; i++)
-        {
-            revNums[i] = Rev(nums[i]);
+        //return (Reverse(12345));
+        var n = nums.Length;
+        for (int i = 0; i < n; i++){
+            nums[i] -= Reverse(nums[i]);
         }
 
-        for (int i = 0; i < length; i++)
-        {
-            for (int j = i; j < length; j++)
-            {
-                if()
-            }
+        var result = 0;
+        var dict = new Dictionary<int, int>();
+        var mod = 1_000_000_007;
+        for (int i = 0; i < n; i++){
+            if (!dict.ContainsKey(nums[i])) dict.Add(nums[i], 0);
+            dict[nums[i]]++;
+            result = (result + dict[nums[i]] - 1) % mod;
         }
-        
-        Helper.WriteArray(revNums);
 
-        return 0;
+        return result;
     }
 
-    private static int Rev(int num)
-    {
-        var s = num.ToString();
-        var l = s.Length;
-        var rev = new StringBuilder(s);
-        
-        for (int i = 0; i < l; i++)
-        {
-            rev[i] = s[^(i + 1)];
+    private static int Reverse(int x){
+        int ans = 0;
+        while (x > 0){
+            ans *= 10;
+            ans += x % 10;
+            x /= 10;
         }
-        return int.Parse(rev.ToString());
+
+        return ans;
     }
 }
