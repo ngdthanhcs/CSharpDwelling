@@ -122,5 +122,57 @@ Console.WriteLine(MinimumAmountOfTimeToCollectGarbage.garbageCollection(garbage1
 Console.WriteLine(MinimumAmountOfTimeToCollectGarbage.garbageCollection(garbage2, travel2));*/
 
 // 1814 nice array 
-var nums = new[] {42, 11, 1, 97};
-Console.WriteLine(CountNicePair.CountPair(nums));
+/*var nums = new[] {42, 11, 1, 97};
+Console.WriteLine(CountNicePair.CountPair(nums));*/
+
+// 1424 diagonal traverse II 
+/*var nums = new List<List<int>> {
+    new() {1, 2, 3, 4, 5},
+    new() {6,7 }, 
+    new() {8 },
+    new() {9, 10, 11 },
+    new() { 12,13,14,15,16 },
+} ;
+
+DiagonalTraverseII.FindDiagonalOrder(nums);*/
+
+// 1630 AthrimeticSubarray
+/*var nums = new[] {4, 6, 5, 9, 3, 7};
+var l = new[] {0, 0, 2};
+var r = new[] {2, 3, 5};
+
+Helper.WriteArray(AthrimeticSubarray.CheckArithmeticSubarrays(nums, l, r));
+
+var nums1 = new[] {-12,-9,-3,-12,-6,15,20,-25,-20,-15,-10};
+var l1 = new[] {0,1,6,4,8,7};
+var r1 = new[] {4,4,9,7,9,10};
+
+Helper.WriteArray(AthrimeticSubarray.CheckArithmeticSubarrays(nums1, l1, r1));*/
+
+//1561 
+/*var piles = new[] {2, 4, 1, 2, 7, 8};
+var piles1 = new[] {2,4,5};
+var piles2 = new[] {9,8,7,6,5,1,2,3,4};
+
+Console.WriteLine(MaximumNumberOfCoinsYouCanGet.MaxNumberOfCoin(piles));
+Console.WriteLine(MaximumNumberOfCoinsYouCanGet.MaxNumberOfCoin(piles1));
+Console.WriteLine(MaximumNumberOfCoinsYouCanGet.MaxNumberOfCoin(piles2));*/
+
+//1685 
+/*var nums = new[] {2,3,5};
+var nums1 = new[] {1,4,6,8,10};
+
+Helper.WriteArray(SumsOfAbsoluteDifference.SumsAbsoluteDifference(nums));
+Helper.WriteArray(SumsOfAbsoluteDifference.SumsAbsoluteDifference(nums1));*/
+
+// 935 Knight Dialer 
+//Console.WriteLine(KnightDealer.CalculateKnightDialer(1));
+//Console.WriteLine(KnightDealer.CalculateKnightDialer(2));
+//Console.WriteLine(KnightDealer.CalculateKnightDialer(3131));
+//Console.WriteLine(KnightDealer.knightDialer(3));
+
+//2147 Number of ways to Divide long corridor 
+/*Console.WriteLine(NumberOfWaysToDivideACorridor.Main("SSPPSPS"));
+Console.WriteLine(NumberOfWaysToDivideACorridor.Main("PPSPSP"));
+Console.WriteLine(NumberOfWaysToDivideACorridor.Main("S"));*/
+Console.WriteLine(NumberOfWaysToDivideACorridor.Main("SPPSSSSPPS"));

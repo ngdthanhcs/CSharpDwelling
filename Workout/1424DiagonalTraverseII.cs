@@ -1,7 +1,7 @@
 ﻿namespace Workout;
 
 public static class DiagonalTraverseII {
-    public static int[] FindDiagonalOrder(IList<IList<int>> nums) {
+    public static int[] FindDiagonalOrder(List<List<int>> nums) {
         List<int> ans = new List<int>();
         var keyToNums = new Dictionary<int, List<int>>(); // Key = row + col
         int maxKey = 0;
@@ -17,7 +17,13 @@ public static class DiagonalTraverseII {
 
         for (int i = 0; i <= maxKey; ++i)
         for (int j = keyToNums[i].Count - 1; j >= 0; --j)
+        {
+            Console.WriteLine(keyToNums[i][j]);
             ans.Add(keyToNums[i][j]);
+            
+            Console.Write("ans = ");
+            Helper.WriteArray(ans);
+        }
 
         return ans.ToArray();
     }
