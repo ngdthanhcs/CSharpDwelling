@@ -176,3 +176,6 @@ Helper.WriteArray(SumsOfAbsoluteDifference.SumsAbsoluteDifference(nums1));*/
 Console.WriteLine(NumberOfWaysToDivideACorridor.Main("PPSPSP"));
 Console.WriteLine(NumberOfWaysToDivideACorridor.Main("S"));*/
 Console.WriteLine(NumberOfWaysToDivideACorridor.Main("SPPSSSSPPS"));
+
+// test weird thing 
+CheckIfTwoStringArrAreEquivalent.Main();
