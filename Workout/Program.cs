@@ -181,8 +181,13 @@ Console.WriteLine(NumberOfWaysToDivideACorridor.Main("SPPSSSSPPS"));*/
 //Console.WriteLine(MinimumOneBitOperation.Main(6));
 
 // 1160 Find words that can be formed by char
+/*
 var words = new string[] { "cat", "bt", "hat", "tree" };
 var words1 = new string[] { "hello","world","leetcode" };
 
 Console.WriteLine(FindWordsThatCanBeFormedByCharacters.Main(words, "atach"));
 Console.WriteLine(FindWordsThatCanBeFormedByCharacters.Main(words1, "welldonehoneyr"));
+*/
+
+// test weird thing 
+CheckIfTwoStringArrAreEquivalent.Main();
