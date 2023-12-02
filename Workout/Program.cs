@@ -174,5 +174,15 @@ Helper.WriteArray(SumsOfAbsoluteDifference.SumsAbsoluteDifference(nums1));*/
 //2147 Number of ways to Divide long corridor 
 /*Console.WriteLine(NumberOfWaysToDivideACorridor.Main("SSPPSPS"));
 Console.WriteLine(NumberOfWaysToDivideACorridor.Main("PPSPSP"));
-Console.WriteLine(NumberOfWaysToDivideACorridor.Main("S"));*/
-Console.WriteLine(NumberOfWaysToDivideACorridor.Main("SPPSSSSPPS"));
+Console.WriteLine(NumberOfWaysToDivideACorridor.Main("S"));
+Console.WriteLine(NumberOfWaysToDivideACorridor.Main("SPPSSSSPPS"));*/
+
+// 1611 Minimum one bit operation 
+//Console.WriteLine(MinimumOneBitOperation.Main(6));
+
+// 1160 Find words that can be formed by char
+var words = new string[] { "cat", "bt", "hat", "tree" };
+var words1 = new string[] { "hello","world","leetcode" };
+
+Console.WriteLine(FindWordsThatCanBeFormedByCharacters.Main(words, "atach"));
+Console.WriteLine(FindWordsThatCanBeFormedByCharacters.Main(words1, "welldonehoneyr"));
