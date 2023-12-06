@@ -190,4 +190,14 @@ Console.WriteLine(FindWordsThatCanBeFormedByCharacters.Main(words1, "welldonehon
 */
 
 // test weird thing 
-CheckIfTwoStringArrAreEquivalent.Main();
+//CheckIfTwoStringArrAreEquivalent.Main();
+
+//2264 Largest 3-same-digit number in string 
+/*Console.WriteLine(Largest3SameDigitNumberInString.Main("6777133339"));
+Console.WriteLine(Largest3SameDigitNumberInString.Main("2300019"));
+Console.WriteLine(Largest3SameDigitNumberInString.Main("42352338"));*/
+
+// 1716 Calculate money in leetcode bank
+Console.WriteLine(CalculateMoneyInLeetcodeBank.Main(4));
+Console.WriteLine(CalculateMoneyInLeetcodeBank.Main(10));
+Console.WriteLine(CalculateMoneyInLeetcodeBank.Main(20));
