@@ -1,4 +1,6 @@
-﻿namespace Workout;
+﻿using HelperLib;
+
+namespace Workout;
 
 public static class DiagonalTraverseII {
     public static int[] FindDiagonalOrder(List<List<int>> nums) {
@@ -22,7 +24,7 @@ public static class DiagonalTraverseII {
             ans.Add(keyToNums[i][j]);
             
             Console.Write("ans = ");
-            Helper.WriteArray(ans);
+            ArrayHelper.WriteArray(ans);
         }
 
         return ans.ToArray();

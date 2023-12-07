@@ -2,7 +2,7 @@
 
 namespace StringTesting;
 
-public static unsafe class MainFile
+public static unsafe class TestUnsafe
 {
     [StructLayout(LayoutKind.Sequential)]
     class Blittable
