@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-SkipList.TestSkipList.Main();
+//SkipList.TestSkipList.Main();
 
 // using HashSet;
 // HashSetTest.Main();
@@ -12,3 +12,7 @@ SkipList.TestSkipList.Main();
 
 var result = TupleTest.TrueMinDeletions("aaabbbcc");
 Console.WriteLine(result);*/
+
+using CSharpDwelling;
+
+TestDict.Main();

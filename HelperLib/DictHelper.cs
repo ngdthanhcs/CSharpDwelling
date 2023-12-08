@@ -10,7 +10,7 @@ public static class DictHelper
         }
     }
 
-    public static void WriteDict(this Dictionary<int, List<int>> dict)
+    public static void WriteDict<TKey, TValue>(this Dictionary<TKey, List<TValue>> dict)
     {
         foreach (var pair in dict)
         {
@@ -19,6 +19,15 @@ public static class DictHelper
             {
                 Console.Write(i + " ");
             }
+            Console.WriteLine();
+        }
+    }
+    
+    public static void WriteDict<TKey, TValue>(this Dictionary<TKey, TValue> dict)
+    {
+        foreach (var pair in dict)
+        {
+            Console.Write(pair.Key + " - " + dict[pair.Key]);
             Console.WriteLine();
         }
     }
