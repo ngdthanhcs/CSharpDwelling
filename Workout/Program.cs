@@ -198,6 +198,9 @@ Console.WriteLine(Largest3SameDigitNumberInString.Main("2300019"));
 Console.WriteLine(Largest3SameDigitNumberInString.Main("42352338"));*/
 
 // 1716 Calculate money in leetcode bank
-Console.WriteLine(CalculateMoneyInLeetcodeBank.Main(4));
+/*Console.WriteLine(CalculateMoneyInLeetcodeBank.Main(4));
 Console.WriteLine(CalculateMoneyInLeetcodeBank.Main(10));
-Console.WriteLine(CalculateMoneyInLeetcodeBank.Main(20));
+Console.WriteLine(CalculateMoneyInLeetcodeBank.Main(20));*/
+
+//2385
+Console.WriteLine();
