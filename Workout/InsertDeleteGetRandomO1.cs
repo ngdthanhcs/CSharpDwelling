@@ -52,8 +52,8 @@ public class RandomizedSet
         if (!locations.ContainsKey(val)) return false;
         if (locations[val] != nums.Count - 1)
         {
-            nums[locations[val]] = nums[nums.Count - 1];
-            locations[nums[nums.Count - 1]] = locations[val];
+            nums[locations[val]] = nums[^1];
+            locations[nums[^1]] = locations[val];
         }
 
         locations.Remove(val);
